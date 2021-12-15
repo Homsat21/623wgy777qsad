@@ -63,5 +63,3 @@ for i,v in pairs(types) do
         end
     end)
 end
-    print("Suivi des statistiques activé.")
-end)

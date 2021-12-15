@@ -17,7 +17,7 @@ local objects = {}
 	Background = Color3.fromRGB(255, 255, 255),
 	Glow = Color3.fromRGB(6, 6, 6),
 	Accent = Color3.fromRGB(23, 0, 1),
-	LightContrast = Color3.fromRGB(255, 0, 0),
+	LightContrast = Color3.fromRGB(6, 6, 6),
 	DarkContrast = Color3.fromRGB(6, 6, 6),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }

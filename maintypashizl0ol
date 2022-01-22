@@ -988,3 +988,62 @@ end
 
 -- load
 venyx:SelectPage(venyx.pages[1], true)
+
+--[[
+                                                          bbbbbbbb                                                                                                      
+TTTTTTTTTTTTTTTTTTTTTTT                                   b::::::b                                                                                                      
+T:::::::::::::::::::::T                                   b::::::b                                                                                                      
+T:::::::::::::::::::::T                                   b::::::b                                                                                                      
+T:::::TT:::::::TT:::::T                                    b:::::b                                                                                                      
+TTTTTT  T:::::T  TTTTTTeeeeeeeeeeee        eeeeeeeeeeee    b:::::bbbbbbbbb       ooooooooooo wwwwwww           wwwww           wwwwwwwzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+        T:::::T      ee::::::::::::ee    ee::::::::::::ee  b::::::::::::::bb   oo:::::::::::oow:::::w         w:::::w         w:::::w z:::::::::::::::zz:::::::::::::::z
+        T:::::T     e::::::eeeee:::::ee e::::::eeeee:::::eeb::::::::::::::::b o:::::::::::::::ow:::::w       w:::::::w       w:::::w  z::::::::::::::z z::::::::::::::z 
+        T:::::T    e::::::e     e:::::ee::::::e     e:::::eb:::::bbbbb:::::::bo:::::ooooo:::::o w:::::w     w:::::::::w     w:::::w   zzzzzzzz::::::z  zzzzzzzz::::::z  
+        T:::::T    e:::::::eeeee::::::ee:::::::eeeee::::::eb:::::b    b::::::bo::::o     o::::o  w:::::w   w:::::w:::::w   w:::::w          z::::::z         z::::::z   
+        T:::::T    e:::::::::::::::::e e:::::::::::::::::e b:::::b     b:::::bo::::o     o::::o   w:::::w w:::::w w:::::w w:::::w          z::::::z         z::::::z    
+        T:::::T    e::::::eeeeeeeeeee  e::::::eeeeeeeeeee  b:::::b     b:::::bo::::o     o::::o    w:::::w:::::w   w:::::w:::::w          z::::::z         z::::::z     
+        T:::::T    e:::::::e           e:::::::e           b:::::b     b:::::bo::::o     o::::o     w:::::::::w     w:::::::::w          z::::::z         z::::::z      
+      TT:::::::TT  e::::::::e          e::::::::e          b:::::bbbbbb::::::bo:::::ooooo:::::o      w:::::::w       w:::::::w          z::::::zzzzzzzz  z::::::zzzzzzzz
+      T:::::::::T   e::::::::eeeeeeee   e::::::::eeeeeeee  b::::::::::::::::b o:::::::::::::::o       w:::::w         w:::::w          z::::::::::::::z z::::::::::::::z
+      T:::::::::T    ee:::::::::::::e    ee:::::::::::::e  b:::::::::::::::b   oo:::::::::::oo         w:::w           w:::w          z:::::::::::::::zz:::::::::::::::z
+      TTTTTTTTTTT      eeeeeeeeeeeeee      eeeeeeeeeeeeee  bbbbbbbbbbbbbbbb      ooooooooooo            www             www           zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+                    
+   OO:::::::::OO                     
+ OO:::::::::::::OO                   
+O:::::::OOO:::::::O                  
+O::::::O   O::::::O nnnn  nnnnnnnn    
+O:::::O     O:::::O n:::nn::::::::nn
+O:::::O     O:::::O n::::::::::::::nn 
+O:::::O     O:::::O nn:::::::::::::::n
+O:::::O     O:::::O  n:::::nnnn:::::n
+O:::::O     O:::::O  n::::n    n::::n
+O:::::O     O:::::O  n::::n    n::::n
+O::::::O   O::::::O  n::::n    n::::n
+O:::::::OOO:::::::O  n::::n    n::::n
+ OO:::::::::::::OO   n::::n    n::::n
+   OO:::::::::OO     n::::n    n::::n
+     OOOOOOOOO       nnnnnn    nnnnnn
+     
+TTTTTTTTTTTTTTTTTTTTTTT                                  
+T:::::::::::::::::::::T                                  
+T:::::::::::::::::::::T                                  
+T:::::TT:::::::TT:::::T                                  
+TTTTTT  T:::::T  TTTTTTooooooooooo    ppppp   ppppppppp   
+        T:::::T      oo:::::::::::oo  p::::ppp:::::::::p  
+        T:::::T     o:::::::::::::::o p:::::::::::::::::p 
+        T:::::T     o:::::ooooo:::::o pp::::::ppppp::::::p
+        T:::::T     o::::o     o::::o p:::::p     p:::::p
+        T:::::T     o::::o     o::::o p:::::p     p:::::p
+        T:::::T     o::::o     o::::o p:::::p     p:::::p
+        T:::::T     o::::o     o::::o p:::::p    p::::::p
+      TT:::::::TT   o:::::ooooo:::::o p:::::ppppp:::::::p
+      T:::::::::T   o:::::::::::::::o p::::::::::::::::p 
+      T:::::::::T    oo:::::::::::oo  p::::::::::::::pp  
+      TTTTTTTTTTT      ooooooooooo    p::::::pppppppp    
+                                      p:::::p            
+                                      p:::::p            
+                                     p:::::::p           
+                                     p:::::::p           
+                                     p:::::::p           
+                                     ppppppppp
+]]

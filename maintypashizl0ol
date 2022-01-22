@@ -27,12 +27,12 @@ local venyx = library.new("Menu Premium v1.2", 5013109572)
 
 -- thèmes du menu
 local themes = {
-Background = Color3.fromRGB(6, 6, 6),
-Glow = Color3.fromRGB(6, 6, 6),
-Accent = Color3.fromRGB(6, 6, 6),
-LightContrast = Color3.fromRGB(6, 6, 6),
-DarkContrast = Color3.fromRGB(6, 6, 6),  
-TextColor = Color3.fromRGB(255, 255, 255)
+Background = Color3.fromRGB(23, 0, 1),
+Glow = Color3.fromRGB(255, 95, 95),
+Accent = Color3.fromRGB(23, 0, 1),
+LightContrast = Color3.fromRGB(44, 13, 19),
+DarkContrast = Color3.fromRGB(23, 0, 1),  
+TextColor = Color3.fromRGB(255, 105, 138)
 }
 
 

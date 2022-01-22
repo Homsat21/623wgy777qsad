@@ -669,29 +669,6 @@ end
 --end
 --end)
 
----------------
-
-------------------
--- Misc
-
-
-
---misc1:addButton("Better Search", function(bettersearchmessage)
- --   require(game:GetService("ReplicatedStorage").Framework.Modules.Client["5 | Message"]).New("Better Search Loaded \nNow you can use type: \n- Pet Name \n- Pet Nickname \n- Pet Rarity (Exclusive, Mythical, Legendary, Epic, Rare, Basic) \n- Pet Type (Dark Natter, Rainbow, Gold and Normal \n- Enchants like Royalty etc")
- ---   print("Pet Counter Loaded")
- --   loadstring(game:HttpGet('https://pastebinp.com/raw/JUEtgq95'))()
---end)
-
-------------------
-
---misc1:addButton("Pet Counter", function(petcountermessage)
-   -- print("Pet Counter Loaded")
-   -- loadstring(game:HttpGet("https://raw.githubusercontent.com/owedits/fartsfx/main/pcounfart.lua", true))()
-  --  if petcountermessage then
-  --      venyx:Notify("Pet Counter Started", "Click F9 to check counted pets")
-  --  end
---end)
-
 -------------------------------------------------------------------------------------------------
 --page2
 

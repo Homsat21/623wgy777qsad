@@ -177,7 +177,7 @@ end)
 ------------
 
 Settings1:addButton("Détruire le menu", function(destroygui)
-    game:GetService("CoreGui")["Menu Premium v1.2"]:Destroy()
+    game:GetService("CoreGui")["Menu Premium v1.4a"]:Destroy()
     print("Menu Détruit avec succès.")
 end)
 -------------------------------------------------------------------------------------------------

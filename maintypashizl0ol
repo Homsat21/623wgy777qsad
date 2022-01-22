@@ -32,7 +32,7 @@ Glow = Color3.fromRGB(255, 95, 95),
 Accent = Color3.fromRGB(23, 0, 1),
 LightContrast = Color3.fromRGB(44, 13, 19),
 DarkContrast = Color3.fromRGB(23, 0, 1),  
-TextColor = Color3.fromRGB(255, 105, 138)
+TextColor = Color3.fromRGB(255, 255, 255)
 }
 
 

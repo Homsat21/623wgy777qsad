@@ -160,16 +160,11 @@ local pets4 = page:addSection("Dark Matter")
 
 -------------------------------------------------------------------------------------------------
 
--- Troll page
---local page = venyx:addPage("Troll", 329532393)
---local troll1 = page:addSection("Troll")
-
--------------------------------------------------------------------------------------------------
 -- section paramètres
 local page = venyx:addPage("Paramètres", 5107159171)
 local Settings1 = page:addSection("Paramètres.")
 local Settings2 = page:addSection("Thèmes.")
-Settings1:addKeybind("Raccourci Clavier", Enum.KeyCode.TAB, function(menu)
+Settings1:addKeybind("Raccourci Clavier", Enum.KeyCode.Enter, function(menu)
 venyx:toggle()
 end, function(menu)
 end)

@@ -1,10 +1,10 @@
 
-if game:GetService("CoreGui"):FindFirstChild("Menu Premium v1.2") then
+if game:GetService("CoreGui"):FindFirstChild("Menu Premium v1.4a") then
     require(game:GetService("ReplicatedStorage").Framework.Modules.Client["5 | Message"]).New("Un autre menu est injecté. \n Veuillez exécuter à nouveau.")
         for i = 0,5 do
-            game:GetService("CoreGui")["Menu Premium v1.2"]:Destroy()
+            game:GetService("CoreGui")["Menu Premium v1.4a"]:Destroy()
         end
-elseif not game:GetService("CoreGui"):FindFirstChild("Menu Premium v1.2") then
+elseif not game:GetService("CoreGui"):FindFirstChild("Menu Premium v1.4a") then
     print("Lancement.. Tout semble bien.")
 end
 --------------------------
@@ -23,7 +23,7 @@ end
 
 -- start
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Homsat21/623wgy777qsad/main/themecolormenuinnit"))()
-local venyx = library.new("Menu Premium v1.2", 5013109572)
+local venyx = library.new("Menu Premium v1.4a", 5013109572)
 
 -- thèmes du menu
 local themes = {
@@ -169,7 +169,7 @@ local pets4 = page:addSection("Dark Matter")
 local page = venyx:addPage("Paramètres", 5107159171)
 local Settings1 = page:addSection("Paramètres.")
 local Settings2 = page:addSection("Thèmes.")
-Settings1:addKeybind("Raccourci Clavier", Enum.KeyCode.Z, function(menu)
+Settings1:addKeybind("Raccourci Clavier", Enum.KeyCode.TAB, function(menu)
 venyx:toggle()
 end, function(menu)
 end)

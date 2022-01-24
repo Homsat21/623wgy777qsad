@@ -5,7 +5,7 @@ _G.TrackList = {
    ['Epic'] = false;
    ['Legendary'] = false;
    ['Mythical'] = true;
-   ['Exclusive'] = false
+   ['Exclusive'] = false;
 }
 
 loadstring(game:HttpGet('https://pastebin.com/raw/7niKEX3Y'))()

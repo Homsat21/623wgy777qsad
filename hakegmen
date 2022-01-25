@@ -1,0 +1,2 @@
+local Library = require(game.ReplicatedStorage:WaitForChild("Framework"):WaitForChild("Library"))
+Library.Message.New("Hacker Egg opened " ..Library.Save.Get().EggsOpened["Hacker Egg"])

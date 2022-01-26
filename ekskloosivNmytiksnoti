@@ -8,4 +8,4 @@ _G.TrackList = {
    ['Exclusive'] = true;
 }
 
-loadstring(game:HttpGet('https://pastebin.com/raw/7niKEX3Y'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/MC2Mp5t0'))()

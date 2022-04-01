@@ -32,7 +32,7 @@ if v.e and PettoRarity[v.id] ~= 'Mythical' and not _G.EMERGENCYSTOP then
                 end
             end
             if not haspower and not _G.EMERGENCYSTOP then
-                print("Yea we kinda need new enchantments on", v.uid)
+                print("Ouais euhm.. besoin de nouveaux pets lol", v.uid)
 
                 workspace.__THINGS.__REMOTES["enchant pet"]:InvokeServer({[1] = v.uid})
                 wait(0.1)

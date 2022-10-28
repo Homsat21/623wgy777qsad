@@ -1,0 +1,13 @@
+local eggName="Cursed Egg" 
+local TripleHatch=true 
+_G.Stop=false
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
